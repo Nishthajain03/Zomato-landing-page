@@ -496,6 +496,10 @@
   padding-top: 1.5rem;
 }
 
+.container_footer{
+  background-color: rgb(248, 252, 255);
+}
+
 @media only screen and (max-width: 900px) {
   .navigation_container{
     grid-template-columns: 1fr 1fr 1fr;
@@ -568,52 +572,37 @@
   font-size: small;
 }
 
-.Explore_heading{
-  font-size: 2.5rem;
-  font-weight: 370;
-  text-align: left;
-  margin-left: 255px;
-  margin-top: 100px;
-  color: rgb(56, 56, 56);
+/* .Explore_container{
+  margin-top: 110px;
+} */
+
+.Explore_container h1{
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: rgb(31, 31, 31);
 }
 
-.Container_Explore{
-  /* display: inline-flex; */
-  justify-content: center;
-  column-gap: 20px;
-  row-gap: 30px;
-  grid-template-columns: 340px 340px 340px ;
-  grid-template-rows:auto;
-  margin-left: 250px;
+.Explore_box_container h4{
+  font-size: 1.250rem;
+  margin-top: 15px;
+  font-weight:400;
+  color: black;
+  margin-left: 15px;
 }
 
-.Explore_options{
+.Explore_container i{
+  margin-left: 1000px;
+}
+
+.Explore_box_container{
   border: 1px solid rgb(235,233, 233);
-  box-shadow: 0 1px 3px rgb(226, 223, 223);
-  width:1050px;
-  height: 60px;
+  width:1100px;
+  height: 65px;
   overflow: hidden;
   border-radius: 10px;
-}
+  margin-top: 20px;
+} 
 
-.Explore_options div{
-  overflow: hidden;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 20px;
-  margin-top: 15px;
-}
-
-.Explore_options div span{
-  color: rgb(65, 64, 64);
-  font-size: 1.2rem;
-  display: inline-block;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.Explore_options div i{
-  margin-right: 7px;
-  font-size: small;
+.Explore_the_end{
+  margin-left: 200px;
 }
